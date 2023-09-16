@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@700&family=Manrope:wght@500;700;800&family=Open+Sans&family=Rubik:wght@400;700&family=Schoolbell&display=swap");
+.login-page {
+  background: #FFA17F; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+.login-page .wrrap-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-page .wrrap-div .login {
+  box-shadow: 2px 3px 5px black;
+  border: 1px solid gray;
+  margin: 50px 0;
+  border-radius: 9px;
+}
+@media (max-width: 576px) {
+  .login-page .wrrap-div .login {
+    margin: 35px 0;
+  }
+}
+.login-page .wrrap-div .login .log-head {
+  /* border: 2px solid blue; */
+  padding-top: 34px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-head {
+    padding-top: 20px;
+  }
+}
+.login-page .wrrap-div .login .log-head .ald-acc {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.login-page .wrrap-div .login .log-head .heading {
+  color: #000;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.login-page .wrrap-div .login .log-main {
+  /* border: 2px solid blue; */
+  padding: 0 62px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-main {
+    padding: 0 30px;
+  }
+}
+.login-page .wrrap-div .login .log-main .username, .login-page .wrrap-div .login .log-main .password {
+  border: 1px solid gray;
+}
+.login-page .wrrap-div .login .log-main .username input, .login-page .wrrap-div .login .log-main .password input {
+  width: 100%;
+  padding: 8px 0;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+}
+.login-page .wrrap-div .login .log-main .password {
+  display: flex;
+}
+.login-page .wrrap-div .login .log-main .password button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding-right: 15px;
+}
+.login-page .wrrap-div .login .log-main .log-btn-div {
+  /* border: 2px solid red; */
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  align-items: center;
+}
+.login-page .wrrap-div .login .log-main .log-btn-div button {
+  padding: 13px 30px;
+  color: #FFF;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  background-color: #000;
+  border: none;
+  outline: none;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-main .log-btn-div button {
+    padding: 9px 20px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+.login-page .wrrap-div .login .log-main .log-btn-div .checkBox {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.login-page .wrrap-div .login .log-main .log-btn-div .checkBox input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+}
+.login-page .wrrap-div .login .log-main .log-btn-div .checkBox label {
+  color: #000;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.login-page .wrrap-div .login .log-main .forGotPass {
+  color: #000;
+  font-family: Manrope;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.login-page .wrrap-div .login .log-btn {
+  /* border: 2px solid red; */
+  border-top: 1px solid gray;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-btn {
+    margin-top: 14px;
+    margin-bottom: 30px;
+  }
+}
+.login-page .wrrap-div .login .log-btn .no-acc {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 24px;
+  padding-top: 20px;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-btn .no-acc {
+    margin-bottom: 12px;
+    padding-top: 14px;
+  }
+}
+.login-page .wrrap-div .login .log-btn .googleSign {
+  border: 1px solid gray;
+  margin: 0 60px;
+  padding: 14px 0;
+  color: #000;
+  text-align: center;
+  background-color: #dadada;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  cursor: pointer;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-btn .googleSign {
+    margin: 0 30px;
+    padding: 9px 0;
+  }
+}
+.login-page .wrrap-div .login .log-btn .googleSign .googleIcon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.login-page .wrrap-div .login .log-btn .divider {
+  /* border: 2px solid red; */
+  margin: 8px 0;
+  position: relative;
+}
+.login-page .wrrap-div .login .log-btn .divider::after {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 1px;
+  background-color: gray;
+  top: 50%;
+  right: 40px;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-btn .divider::after {
+    width: 30%;
+  }
+}
+.login-page .wrrap-div .login .log-btn .divider::before {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 1px;
+  background-color: gray;
+  top: 50%;
+  left: 40px;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-btn .divider::before {
+    width: 30%;
+  }
+}
+.login-page .wrrap-div .login .log-btn .crt-acc {
+  border: 1px solid gray;
+  margin: 0 60px;
+}
+@media (max-width: 575px) {
+  .login-page .wrrap-div .login .log-btn .crt-acc {
+    margin: 0 30px;
+  }
+}
+.login-page .wrrap-div .login .log-btn .crt-acc button {
+  width: 100%;
+  padding: 14px 0;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  background-color: #FFF;
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=login.css.map */

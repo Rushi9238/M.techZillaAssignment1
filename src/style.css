@@ -1,0 +1,65 @@
+.timerDiv .headDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timerDiv .headDiv .userUrl {
+  margin-top: 20px;
+}
+.timerDiv .headDiv .userUrl img {
+  border-radius: 54px;
+}
+.timerDiv .headDiv .userName {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.timerDiv .counterDiv {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timerDiv .counterDiv .timer {
+  border: 1px solid gray;
+  padding: 0 20px;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 30px;
+}
+.timerDiv .timerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-top: 30px;
+}
+
+.breakTimeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.breakTimeDiv .timeCount {
+  text-align: center;
+}
+.breakTimeDiv .timeCount .timer {
+  font-size: 45px;
+  border: 1px solid gray;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+.breakTimeDiv .breakButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-top: 30px;
+}
+
+.custoModalTimer, .coustomModalBreak {
+  background: linear-gradient(180deg, rgba(0, 200, 255, 0.3) 0%, rgba(65, 95, 255, 0) 100%);
+}/*# sourceMappingURL=style.css.map */

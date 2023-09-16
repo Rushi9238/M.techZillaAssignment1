@@ -1,0 +1,247 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@700&family=Manrope:wght@500;700;800&family=Open+Sans&family=Rubik:wght@400;700&family=Schoolbell&display=swap');
+
+
+.login-page {
+    // background: var(--gradiant-bg, linear-gradient(180deg, #E6F9FF 0%, #F3EDFF 100%));
+    background: #FFA17F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    // border: 2px solid red;
+    .wrrap-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .login {
+            box-shadow:2px 3px 5px black;
+            border: 1px solid gray;
+            margin: 50px 0;
+
+            border-radius: 9px;
+            @media(max-width:576px){
+                margin: 35px 0;
+            }
+            .log-head {
+                /* border: 2px solid blue; */
+                padding-top: 34px;
+                text-align: center;
+                padding-bottom: 20px;
+                @media(max-width:575px){
+                    padding-top: 20px;
+                }
+                .ald-acc {
+                    color: #000;
+                    text-align: center;
+                    font-family: Manrope;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 26px;
+                }
+                .heading {
+                    color: #000;
+                    text-align: center;
+                    font-family: DM Serif Display;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 1.08px;
+                }
+            }
+            .log-main {
+                /* border: 2px solid blue; */
+                padding: 0 62px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                @media(max-width:575px){
+                    padding: 0 30px;
+                }
+                .username,.password{
+                    border: 1px solid gray;
+                    input {
+                        width: 100%;
+                        padding: 8px 0;
+                        padding-left: 15px;
+                        outline: none;
+                        border: none;
+                        }
+                }
+                .password{
+                    display: flex;
+                    button{
+                        background-color: #fff;
+                        border: none;
+                        outline: none;
+                        padding-right: 15px;
+                    }
+                }
+                .log-btn-div {
+                    /* border: 2px solid red; */
+                    display: flex;
+                    column-gap: 25px;
+                    align-items: center;
+                    button {
+                        padding: 13px 30px;
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Manrope;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 0.48px;
+                        background-color: #000;
+                        border: none;
+                        outline: none;
+                        @media(max-width:575px){
+                            padding: 9px 20px;
+                            font-size: 14px;
+                            white-space:nowrap;
+                        }
+                    
+                    }
+                    .checkBox {
+                        /* border: 2px solid blue; */
+                        display: flex;
+                        align-items: center;
+                        column-gap: 8px;
+                        input[type="checkbox"] {
+                            width: 15px;
+                            height: 15px;
+                        }
+                        label {
+                            color: #000;
+                            font-family: Manrope;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 26px;
+                            @media(max-width:575px){
+                                // font-size: 12px;
+                            }
+                        }
+                    }
+                
+                }
+                .forGotPass {
+                    color: #000;
+                    font-family: Manrope;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 26px;
+                }
+            }
+            .log-btn {
+                /* border: 2px solid red; */
+                border-top: 1px solid gray;
+                margin-top: 20px;
+                text-align: center;
+                margin-bottom: 40px;
+                @media(max-width:575px){
+                    margin-top: 14px;
+                    margin-bottom: 30px;
+                }
+                .no-acc {
+                    color: #000;
+                    text-align: center;
+                    font-family: Manrope;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 26px;
+                    margin-bottom: 24px;
+                    padding-top: 20px;
+                    @media(max-width:575px){
+                        margin-bottom: 12px;
+                        padding-top: 14px;
+                    }
+                
+                }
+                .googleSign {
+                    border: 1px solid gray;
+                    margin: 0 60px;
+                    padding: 14px 0;
+                    color: #000;
+                    text-align: center;
+                    background-color: #dadada;
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                    letter-spacing: 0.48px;
+                    @media(max-width:575px){
+                        margin: 0 30px;
+                        padding: 9px 0;
+                    }
+                    cursor: pointer;
+                    .googleIcon{
+                        font-size: 30px;
+                        margin-right: 10px;
+                    
+                    }
+                }
+                .divider{
+                    /* border: 2px solid red; */
+                    margin: 8px 0;
+                    position: relative;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        width: 35%;
+                        height: 1px;
+                        background-color: gray;
+                        top: 50%;
+                        right:40px;
+                    @media(max-width:575px){
+                        width: 30%;
+                    }
+                    
+                    }
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        width: 35%;
+                        height: 1px;
+                        background-color: gray;
+                        top: 50%;
+                        left: 40px;
+                        @media(max-width:575px){
+                            width: 30%;
+                        }
+                    
+                    }
+                }
+                .crt-acc {
+                    border: 1px solid gray;
+                    margin: 0 60px;
+                    @media(max-width:575px){
+                        margin: 0 30px;
+                    }
+                    button {
+                        width: 100%;
+                        padding: 14px 0;
+                        color: #000;
+                        text-align: center;
+                        font-family: Manrope;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: normal;
+                        letter-spacing: 0.48px;
+                        background-color: #FFF;
+                        border: none;
+                        outline: none;
+                    
+                    }
+                }
+            }
+        }
+    }
+}
