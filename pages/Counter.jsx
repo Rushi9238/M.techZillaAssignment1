@@ -8,7 +8,7 @@ const Counter = ({ setTimerModalOpen, timerModalopen, username, setusername, use
   const [isLoading, setLoading] = useState(false);
   useEffect(() => {
     function simulateNetworkRequest() {
-      return new Promise((resolve) => setTimeout(resolve, 2000));
+      return new Promise((resolve) => setTimeout(resolve, 1000));
     }
 
     if (isLoading) {

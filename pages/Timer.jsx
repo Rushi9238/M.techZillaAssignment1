@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Button from 'react-bootstrap/Button';
 const Timer = ({ username, setusername, userUrl, setUserUrl,isBreak,setIsBreak,setTimerModalOpen,timerModalopen ,breakModalOpen,setBreakModalOpen }) => {
 
-    const [time, setTime] = useState(1 * 3);
+    const [time, setTime] = useState(25 * 60);
     const [isActive, setIsActive] = useState(true);
 
     useEffect(() => {
